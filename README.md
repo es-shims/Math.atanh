@@ -29,14 +29,14 @@ console.log(Math.atanh(2)); // NaN
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[package-url]: https://npmjs.org/package/es-shims/math.atanh
-[npm-version-svg]: https://versionbadg.es/es-shims/math.atanh.svg
-[deps-svg]: https://david-dm.org/es-shims/math.atanh.svg
-[deps-url]: https://david-dm.org/es-shims/math.atanh
-[dev-deps-svg]: https://david-dm.org/es-shims/math.atanh/dev-status.svg
-[dev-deps-url]: https://david-dm.org/es-shims/math.atanh#info=devDependencies
-[npm-badge-png]: https://nodei.co/npm/es-shims/math.atanh.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/es-shims/math.atanh.svg
+[package-url]: https://npmjs.org/package/math.atanh
+[npm-version-svg]: https://versionbadg.es/math.atanh.svg
+[deps-svg]: https://david-dm.org/es-shims/Math.atanh.svg
+[deps-url]: https://david-dm.org/es-shims/Math.atanh
+[dev-deps-svg]: https://david-dm.org/es-shims/Math.atanh/dev-status.svg
+[dev-deps-url]: https://david-dm.org/es-shims/Math.atanh#info=devDependencies
+[npm-badge-png]: https://nodei.co/npm/math.atanh.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/math.atanh.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/es-shims/math.atanh.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=es-shims/math.atanh
+[downloads-image]: https://img.shields.io/npm/dm/math.atanh.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=math.atanh
