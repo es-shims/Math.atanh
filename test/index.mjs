@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = atanhModule;
-	t.equal(await import('math.atanh/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('math.atanh/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('math.atanh/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('math.atanh/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('math.atanh/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('math.atanh/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
