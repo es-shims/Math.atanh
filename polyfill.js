@@ -3,13 +3,13 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	var native = Math.atanh;
+	var orig = Math.atanh;
 	if (
-		!native
+		!orig
 		// Chrome < 54 atanh incorrectly returns 0 for large numbers
-		|| native(1e-300) === 0 // eslint-disable-line no-magic-numbers
+		|| orig(1e-300) === 0 // eslint-disable-line no-magic-numbers
 	) {
 		return implementation;
 	}
-	return native;
+	return orig;
 };
