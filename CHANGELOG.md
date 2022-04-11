@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Math.atanh/compare/v1.0.1...v1.0.2) - 2022-04-10
+
+### Commits
+
+- [actions] reuse common workflows [`fbed991`](https://github.com/es-shims/Math.atanh/commit/fbed9913a0821163b94e3562fc5ea625b9689633)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`307f890`](https://github.com/es-shims/Math.atanh/commit/307f89098869389b2bfea40816a4813685f86a3e)
+- [actions] update codecov uploader [`e2d768e`](https://github.com/es-shims/Math.atanh/commit/e2d768e0bf5d9c82fe462d43375e31b8eb75c050)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`45e887c`](https://github.com/es-shims/Math.atanh/commit/45e887c452a556e21c9a8d8cc84b70dd9af63e18)
+- [Fix] avoid identifier `native`; it breaks node 0.4 [`9da03b9`](https://github.com/es-shims/Math.atanh/commit/9da03b918ca796792048a8da144eb752f168457c)
+- [Deps] update `math.log1p` [`7e845de`](https://github.com/es-shims/Math.atanh/commit/7e845de805a640f62dc7784c68b53156000a974a)
+- [Deps] update `math.log1p` [`5f0abe4`](https://github.com/es-shims/Math.atanh/commit/5f0abe4396606be340d5c260aa58d79eac8a022d)
+
 ## [v1.0.1](https://github.com/es-shims/Math.atanh/compare/v1.0.0...v1.0.1) - 2021-10-02
 
 ### Commits
