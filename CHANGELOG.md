@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Math.atanh/compare/v1.0.2...v1.0.3) - 2026-03-16
+
+### Commits
+
+- [meta] fix package.json indentation [`0613eca`](https://github.com/es-shims/Math.atanh/commit/0613eca3bfee1d8338eb91004827d864d98c8829)
+- [meta] use `npmignore` to autogenerate an npmignore file [`c0e04f9`](https://github.com/es-shims/Math.atanh/commit/c0e04f98eb937b506dd1cc62032941a72737c9f8)
+- [Refactor] remove useless ESM entrypoints [`9aabd0b`](https://github.com/es-shims/Math.atanh/commit/9aabd0b93bb06f71867f8ed3c24924dccee91b2e)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `eslint`, `has-strict-mode`, `npmignore`, `tape` [`3a3bac0`](https://github.com/es-shims/Math.atanh/commit/3a3bac01c15c7e4cb9f03afccba8813f2c81d158)
+- [actions] update rebase action to use reusable workflow [`5b87279`](https://github.com/es-shims/Math.atanh/commit/5b87279e30ae136800413b4a4635b51dc82d584a)
+- [Dev Deps] update `aud`, `functions-have-names`, `tape` [`5841e71`](https://github.com/es-shims/Math.atanh/commit/5841e71094263a177e18a214cd18e3cfb64ac4a6)
+- [Fix] use `call-bind` to avoid polluting builtin [`18748e4`](https://github.com/es-shims/Math.atanh/commit/18748e4a57d4003c2b342e0b8395de07385a9790)
+- [Deps] update `define-properties`, `math.log1p` [`bcb82b1`](https://github.com/es-shims/Math.atanh/commit/bcb82b1f7209790f73b7a49f63cecdad20e0471c)
+- [Deps] update `define-properties`, `math.log1p` [`775f838`](https://github.com/es-shims/Math.atanh/commit/775f8382e83121f7ee6fdc7deb0c0c250358cef0)
+- [meta] add missing `engines.node` [`f6ac3df`](https://github.com/es-shims/Math.atanh/commit/f6ac3df611d67f0ffcb7c70a974f5f17f79ce8a9)
+- [meta] use `npm audit` instead of `aud` [`06f486e`](https://github.com/es-shims/Math.atanh/commit/06f486ea4c140d29750d4d93829fb7da7a142a11)
+- [Tests] increase coverage [`a84f6e1`](https://github.com/es-shims/Math.atanh/commit/a84f6e14c1408d1916801437c9c4fc3c778298ef)
+- [readme] replace runkit CI badge with shields.io check-runs badge [`ac16ed2`](https://github.com/es-shims/Math.atanh/commit/ac16ed2f48d69031e6010efa3144c1c4173563c8)
+
 ## [v1.0.2](https://github.com/es-shims/Math.atanh/compare/v1.0.1...v1.0.2) - 2022-04-10
 
 ### Commits
